@@ -39,7 +39,7 @@
 }
 
 .footer {
-  background: #f6e5dc;
+  background: rgba(246, 228, 219, 0.95);
   padding: 16px 32px;
 }
 .footer .reseaux {
@@ -60,9 +60,10 @@
   width: 50px;
   height: 50px;
   cursor: pointer;
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 50%;
-  background-color: rgba(167, 112, 112, 0);
+  background-color: rgba(246, 228, 219, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .cover {
@@ -108,6 +109,74 @@
   padding: 0 20px;
   height: 400px;
   width: auto;
+}
+
+.perso {
+  padding: 20px 30px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perso div {
+  padding: 30px;
+}
+.perso .one {
+  background-color: #f6e4db;
+  font-size: large;
+  font-weight: bold;
+}
+.perso .two {
+  font-weight: bold;
+}
+
+.description {
+  padding: 25px 50px;
+  text-align: justify;
+}
+
+.museum, .garden {
+  height: auto;
+  width: 100%;
+  padding: 30px 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 20vh 20vh 20vh;
+}
+.museum div, .garden div {
+  display: flex;
+  justify-content: center;
+}
+.museum .titre, .garden .titre {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  font-size: 30px;
+}
+.museum .text, .garden .text {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  text-align: justify;
+  align-items: center;
+  padding: 20px 50px;
+}
+.museum .img0, .garden .img0 {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+.museum .img0 > img, .garden .img0 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.museum .img1, .garden .img1 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+.museum .img1 > img, .garden .img1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
