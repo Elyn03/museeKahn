@@ -15,4 +15,13 @@
             width: auto;
         }
     }
+
+    a {
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+            color: #1a6326;
+        }
+    }
 }

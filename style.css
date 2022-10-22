@@ -51,6 +51,13 @@
   height: 50px;
   width: auto;
 }
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #1a6326;
+}
 
 #btt {
   position: fixed;
@@ -82,10 +89,14 @@
   height: 50px;
   grid-area: title;
   align-items: center;
+  font-size: 25px;
 }
 .musee .bloc1 {
   height: 60vh;
   grid-area: bloc1;
+}
+.musee .bloc1:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .musee .bloc1 > img {
   height: auto;
@@ -96,6 +107,9 @@
   height: 60vh;
   grid-area: bloc2;
 }
+.musee .bloc2:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .musee .bloc2 > img {
   height: auto;
   width: 100%;
@@ -104,6 +118,9 @@
 .musee .bloc3 {
   height: 60vh;
   grid-area: bloc3;
+}
+.musee .bloc3:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .musee .bloc3 > img {
   height: auto;
@@ -127,10 +144,14 @@
   height: 50px;
   grid-area: title;
   align-items: center;
+  font-size: 25px;
 }
 .foret1 .bloc1 {
   height: 30vh;
   grid-area: bloc1;
+}
+.foret1 .bloc1:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .foret1 .bloc1 > img {
   height: auto;
@@ -141,6 +162,9 @@
   height: 30vh;
   grid-area: bloc2;
 }
+.foret1 .bloc2:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .foret1 .bloc2 > img {
   height: auto;
   width: 100%;
@@ -149,6 +173,9 @@
 .foret1 .bloc3 {
   height: calc(60vh + 20px);
   grid-area: bloc3;
+}
+.foret1 .bloc3:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .foret1 .bloc3 > img {
   height: auto;
@@ -172,10 +199,14 @@
   height: 50px;
   grid-area: title;
   align-items: center;
+  font-size: 25px;
 }
 .jardinf .bloc1 {
   height: calc(60vh + 20px);
   grid-area: bloc1;
+}
+.jardinf .bloc1:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .jardinf .bloc1 > img {
   height: auto;
@@ -186,6 +217,9 @@
   height: 30vh;
   grid-area: bloc2;
 }
+.jardinf .bloc2:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .jardinf .bloc2 > img {
   height: auto;
   width: 100%;
@@ -194,6 +228,9 @@
 .jardinf .bloc3 {
   height: 30vh;
   grid-area: bloc3;
+}
+.jardinf .bloc3:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .jardinf .bloc3 > img {
   height: auto;
@@ -204,6 +241,9 @@
   height: 30vh;
   grid-area: bloc4;
 }
+.jardinf .bloc4:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .jardinf .bloc4 > img {
   height: auto;
   width: 100%;
@@ -212,6 +252,9 @@
 .jardinf .bloc5 {
   height: 30vh;
   grid-area: bloc5;
+}
+.jardinf .bloc5:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .jardinf .bloc5 > img {
   height: auto;
@@ -235,10 +278,14 @@
   height: 50px;
   grid-area: title;
   align-items: center;
+  font-size: 25px;
 }
 .jardina .bloc1 {
   height: 30vh;
   grid-area: bloc1;
+}
+.jardina .bloc1:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .jardina .bloc1 > img {
   height: auto;
@@ -249,6 +296,9 @@
   height: 30vh;
   grid-area: bloc2;
 }
+.jardina .bloc2:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .jardina .bloc2 > img {
   height: auto;
   width: 100%;
@@ -258,6 +308,9 @@
   height: 30vh;
   grid-area: bloc3;
 }
+.jardina .bloc3:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .jardina .bloc3 > img {
   height: auto;
   width: 100%;
@@ -266,6 +319,9 @@
 .jardina .bloc4 {
   height: 30vh;
   grid-area: bloc4;
+}
+.jardina .bloc4:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .jardina .bloc4 > img {
   height: auto;
@@ -289,10 +345,14 @@
   height: 50px;
   grid-area: title;
   align-items: center;
+  font-size: 25px;
 }
 .village .bloc1 {
   height: 60vh;
   grid-area: bloc1;
+}
+.village .bloc1:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .village .bloc1 > img {
   height: auto;
@@ -303,6 +363,9 @@
   height: 60vh;
   grid-area: bloc2;
 }
+.village .bloc2:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .village .bloc2 > img {
   height: auto;
   width: 100%;
@@ -311,6 +374,9 @@
 .village .bloc3 {
   height: calc(90vh + 40px);
   grid-area: bloc3;
+}
+.village .bloc3:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .village .bloc3 > img {
   height: auto;
@@ -321,6 +387,9 @@
   height: 30vh;
   grid-area: bloc4;
 }
+.village .bloc4:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .village .bloc4 > img {
   height: auto;
   width: 100%;
@@ -329,6 +398,9 @@
 .village .bloc5 {
   height: calc(60vh + 20px);
   grid-area: bloc5;
+}
+.village .bloc5:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .village .bloc5 > img {
   height: auto;
@@ -339,6 +411,9 @@
   height: 30vh;
   grid-area: bloc6;
 }
+.village .bloc6:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .village .bloc6 > img {
   height: auto;
   width: 100%;
@@ -347,6 +422,9 @@
 .village .bloc7 {
   height: 30vh;
   grid-area: bloc7;
+}
+.village .bloc7:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .village .bloc7 > img {
   height: auto;
@@ -357,6 +435,9 @@
   height: 30vh;
   grid-area: bloc8;
 }
+.village .bloc8:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+}
 .village .bloc8 > img {
   height: auto;
   width: 100%;
@@ -365,6 +446,9 @@
 .village .bloc9 {
   height: 30vh;
   grid-area: bloc9;
+}
+.village .bloc9:hover {
+  box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
 }
 .village .bloc9 > img {
   height: auto;
@@ -403,6 +487,12 @@
   background-color: #fff;
   border: 5px solid #eeccb9;
 }
+@media screen and (max-width: 900px) {
+  .prez .archive-planete:hover {
+    border: 0px solid #eeccb9;
+    box-shadow: 0px 5px 10px 0px rgb(238, 204, 185);
+  }
+}
 
 .map {
   margin: 50px 10px;
@@ -415,6 +505,20 @@
   padding: 0 20px;
   height: 400px;
   width: auto;
+}
+.map .direction {
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .map .direction {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .map {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .perso {
@@ -435,6 +539,11 @@
 .perso .two {
   font-weight: bold;
 }
+@media screen and (max-width: 900px) {
+  .perso {
+    flex-direction: column;
+  }
+}
 
 .description {
   padding: 25px 50px;
@@ -448,7 +557,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 20vh 20vh 20vh;
+  grid-template-rows: 50px 30vh 30vh 30vh;
 }
 .museum div, .garden div {
   display: flex;

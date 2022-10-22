@@ -40,6 +40,11 @@
       color: #000;
       background-color: #fff;
       border: 5px solid #eeccb9;
+
+      @include abstracts.breakpoint(900px) {
+        border: 0px solid #eeccb9;
+        box-shadow: 0px 5px 10px 0px rgba(238, 204, 185); 
+      }
     }
   }
 
@@ -54,6 +59,21 @@
     padding: 0 20px;
     @include abstracts.size(400px, auto);
   }
+  
+  .direction {
+    padding: 10px;
+
+    @include abstracts.breakpoint(900px) {
+      padding: 20px;
+    }
+
+  }
+
+  @include abstracts.breakpoint(900px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  
 }
 
 // HISTORY
@@ -74,7 +94,11 @@
   }
   .two {
     font-weight: bold;
-   }
+  }
+
+  @include abstracts.breakpoint(900px) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -85,7 +109,7 @@
 .museum, .garden {
   @include abstracts.size(auto, 100%);
   padding: 30px 50px;
-  @include abstracts.grid(20px, 1fr 1fr 1fr 1fr, 50px 20vh 20vh 20vh);
+  @include abstracts.grid(20px, 1fr 1fr 1fr 1fr, 50px 30vh 30vh 30vh);
 
   div {
     display: flex;
@@ -126,5 +150,6 @@
       object-fit: cover;
     }
   }
+
 }
 

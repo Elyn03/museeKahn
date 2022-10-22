@@ -19,7 +19,24 @@
     }
 }
 
+@mixin areatitle ($height, $area){
+    height: $height;
+    grid-area: $area;
+    align-items: center;
+    font-size: 25px;
+}
+
 @mixin area ($height, $area){
     height: $height;
     grid-area: $area;
+}
+
+@mixin breakpoint($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin shadow {
+    box-shadow: 0px 5px 10px 0px rgba(238, 204, 185);
 }

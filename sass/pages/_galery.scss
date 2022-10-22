@@ -12,15 +12,19 @@
       background-color: #eeccb9;
       display: flex;
       justify-content: center;
+
     }
   
     .title {
-      @include abstracts.area(50px, title);
-      align-items: center;
+      @include abstracts.areatitle(50px, title);
     }
   
     .bloc1 {
       @include abstracts.area(60vh, bloc1);
+
+      &:hover {
+        @include abstracts.shadow;
+      }
   
       > img {
         @include abstracts.size(auto, 100%);
@@ -30,6 +34,10 @@
     .bloc2 {
       @include abstracts.area(60vh, bloc2);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -38,6 +46,10 @@
     .bloc3 {
       @include abstracts.area(60vh, bloc3);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -61,13 +73,16 @@
     }
   
     .title {
-      @include abstracts.area(50px, title);
-      align-items: center;
+      @include abstracts.areatitle(50px, title);
     }
   
     .bloc1 {
       @include abstracts.area(30vh, bloc1);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -76,6 +91,10 @@
     .bloc2 {
       @include abstracts.area(30vh, bloc2);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -84,6 +103,10 @@
     .bloc3 {
       @include abstracts.area(calc(60vh + 20px), bloc3);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -108,13 +131,16 @@
     }
   
     .title {
-      @include abstracts.area(50px, title);
-      align-items: center;
+      @include abstracts.areatitle(50px, title);
     }
   
     .bloc1 {
       @include abstracts.area(calc(60vh + 20px), bloc1);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -123,6 +149,10 @@
     .bloc2 {
       @include abstracts.area(30vh, bloc2);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -131,6 +161,10 @@
     .bloc3 {
       @include abstracts.area(30vh, bloc3);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+      
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -139,6 +173,10 @@
     .bloc4 {
       @include abstracts.area(30vh, bloc4);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -147,6 +185,10 @@
     .bloc5 {
       @include abstracts.area(30vh, bloc5);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -170,13 +212,16 @@
     }
   
     .title {
-      @include abstracts.area(50px, title);
-      align-items: center;
+      @include abstracts.areatitle(50px, title);
     }
   
     .bloc1 {
       @include abstracts.area(30vh, bloc1);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -185,6 +230,10 @@
     .bloc2 {
       @include abstracts.area(30vh, bloc2);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -193,6 +242,10 @@
     .bloc3 {
       @include abstracts.area(30vh, bloc3);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -201,6 +254,10 @@
     .bloc4 {
         @include abstracts.area(30vh, bloc4);
     
+        &:hover {
+          @include abstracts.shadow;
+        }
+
         > img {
           @include abstracts.size(auto, 100%);
           object-fit: cover;
@@ -228,13 +285,16 @@
     }
   
     .title {
-      @include abstracts.area(50px, title);
-      align-items: center;
+      @include abstracts.areatitle(50px, title);
     }
   
     .bloc1 {
       @include abstracts.area(60vh, bloc1);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -243,6 +303,10 @@
     .bloc2 {
       @include abstracts.area(60vh, bloc2);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -251,6 +315,10 @@
     .bloc3 {
       @include abstracts.area(calc(90vh + 40px), bloc3);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -259,6 +327,10 @@
     .bloc4 {
       @include abstracts.area(30vh, bloc4);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -267,6 +339,10 @@
     .bloc5 {
       @include abstracts.area(calc(60vh + 20px), bloc5);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -275,6 +351,10 @@
     .bloc6 {
       @include abstracts.area(30vh, bloc6);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -283,6 +363,10 @@
     .bloc7 {
       @include abstracts.area(30vh, bloc7);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+      
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -291,6 +375,10 @@
     .bloc8 {
       @include abstracts.area(30vh, bloc8);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
@@ -299,6 +387,10 @@
     .bloc9 {
       @include abstracts.area(30vh, bloc9);
   
+      &:hover {
+        @include abstracts.shadow;
+      }
+      
       > img {
         @include abstracts.size(auto, 100%);
         object-fit: cover;
