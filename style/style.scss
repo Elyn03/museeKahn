@@ -1,0 +1,32 @@
+@use 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cover {
+    @include mixins.size(100vh, 100%);
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-color: #eeccb9;
+
+    .text {
+        @include mixins.size(100vh, 100%);
+        background: linear-gradient(
+        //   rgba(246, 229, 220, 0.25),
+        //   rgba(238, 204, 185, 0.25),
+        //   rgba(26, 99, 38, 0.25)
+
+          rgba(26, 99, 38, 0.25),
+          rgba(238, 204, 185, 0.25),
+          rgba(246, 229, 220, 0.25)
+        );
+    }
+}
+
+.map {
+    @include mixins.size(100vh, 100%);
+}
