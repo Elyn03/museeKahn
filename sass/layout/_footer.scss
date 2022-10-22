@@ -1,0 +1,18 @@
+@use "../abstracts";
+
+
+// FOOTER
+
+.footer {
+    background: #f6e5dc;
+    padding: 16px 32px;
+
+    .reseaux {
+        @include abstracts.flex(center, center);
+        
+        img {
+            height: 70px;
+            width: auto;
+        }
+    }
+}
