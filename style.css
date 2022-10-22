@@ -10,11 +10,12 @@
   top: 0;
   height: 90px;
   width: 100%;
-  background: #f6e5dc;
+  background: rgba(246, 228, 219, 0.95);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 100px;
+  backdrop-filter: blur(5px);
 }
 .menu img {
   height: 80px;
@@ -47,8 +48,21 @@
   align-items: center;
 }
 .footer .reseaux img {
-  height: 70px;
+  height: 50px;
   width: auto;
+}
+
+#btt {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgba(167, 112, 112, 0);
 }
 
 .cover {
@@ -64,9 +78,36 @@
   background: linear-gradient(rgba(26, 99, 38, 0.25), rgba(238, 204, 185, 0.25), rgba(246, 229, 220, 0.25));
 }
 
+.prez {
+  margin: 60px;
+  text-align: justify;
+}
+.prez .info {
+  padding: 20px;
+}
+.prez .archive-planete {
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #eeccb9;
+}
+.prez .archive-planete:hover {
+  color: #000;
+  background-color: #fff;
+  border: 5px solid #eeccb9;
+}
+
 .map {
-  height: 100vh;
-  width: 100%;
+  margin: 50px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map .img img {
+  padding: 0 20px;
+  height: 400px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
