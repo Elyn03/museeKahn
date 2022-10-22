@@ -9,9 +9,17 @@
     align-items: $align;  
 }
 
-@mixin grid ($gap, $column, $row){
+@mixin grid ($gap, $column, $row: null){
     display: grid;
     gap: $gap;
     grid-template-columns: $column;
-    grid-template-rows: $row;
+
+    @if($gap != null) {
+        grid-template-rows: $row;
+    }
+}
+
+@mixin area ($height, $area){
+    height: $height;
+    grid-area: $area;
 }

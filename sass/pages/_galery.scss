@@ -1,0 +1,308 @@
+@use "../abstracts";
+
+// MUSEE
+.musee {
+    padding: 50px 30px;
+    @include abstracts.grid(20px, 1fr 1fr 1fr);
+    grid-template-areas: "title title title"
+                           "bloc1 bloc2 bloc3"
+                           "bloc1 bloc2 bloc3";
+  
+    div {
+      background-color: #eeccb9;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .title {
+      @include abstracts.area(50px, title);
+      align-items: center;
+    }
+  
+    .bloc1 {
+      @include abstracts.area(60vh, bloc1);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc2 {
+      @include abstracts.area(60vh, bloc2);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc3 {
+      @include abstracts.area(60vh, bloc3);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+  
+}
+
+// FORET BLEUE
+.foret1 {
+    padding: 50px 30px;
+    @include abstracts.grid(20px, 1fr 1fr 1fr);
+    grid-template-areas: "title title title"
+                           "bloc1 bloc1 bloc3"
+                           "bloc2 bloc2 bloc3";
+  
+    div {
+      background-color: #eeccb9;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .title {
+      @include abstracts.area(50px, title);
+      align-items: center;
+    }
+  
+    .bloc1 {
+      @include abstracts.area(30vh, bloc1);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc2 {
+      @include abstracts.area(30vh, bloc2);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc3 {
+      @include abstracts.area(calc(60vh + 20px), bloc3);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+  
+}
+
+// JARDIN FR
+.jardinf {
+    padding: 50px 30px;
+    @include abstracts.grid(20px, 1fr 1fr 1fr);
+    grid-template-areas: "title title title"
+                           "bloc1 bloc2 bloc3"
+                           "bloc1 bloc4 bloc4"
+                           "bloc5 bloc5 bloc5";
+  
+    div {
+      background-color: #eeccb9;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .title {
+      @include abstracts.area(50px, title);
+      align-items: center;
+    }
+  
+    .bloc1 {
+      @include abstracts.area(calc(60vh + 20px), bloc1);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc2 {
+      @include abstracts.area(30vh, bloc2);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc3 {
+      @include abstracts.area(30vh, bloc3);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc4 {
+      @include abstracts.area(30vh, bloc4);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc5 {
+      @include abstracts.area(30vh, bloc5);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+  
+}
+
+// JARDIN ENG
+.jardina {
+    padding: 50px 30px;
+    @include abstracts.grid(20px, 1fr 1fr 1fr);
+    grid-template-areas: "title title title"
+                           "bloc1 bloc1 bloc2"
+                           "bloc3 bloc4 bloc4";
+  
+    div {
+      background-color: #eeccb9;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .title {
+      @include abstracts.area(50px, title);
+      align-items: center;
+    }
+  
+    .bloc1 {
+      @include abstracts.area(30vh, bloc1);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc2 {
+      @include abstracts.area(30vh, bloc2);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc3 {
+      @include abstracts.area(30vh, bloc3);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc4 {
+        @include abstracts.area(30vh, bloc4);
+    
+        > img {
+          @include abstracts.size(auto, 100%);
+          object-fit: cover;
+        }
+      }
+  
+}
+  
+
+// VILLAGE JAP
+.village {
+    padding: 50px 30px;
+    @include abstracts.grid(20px, 1fr 1fr 1fr);
+    grid-template-areas: "title title title"
+                           "bloc1 bloc3 bloc2"
+                           "bloc1 bloc3 bloc2"
+                           "bloc4 bloc3 bloc5"
+                           "bloc6 bloc6 bloc5"
+                           "bloc7 bloc8 bloc9";
+  
+    div {
+      background-color: #eeccb9;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .title {
+      @include abstracts.area(50px, title);
+      align-items: center;
+    }
+  
+    .bloc1 {
+      @include abstracts.area(60vh, bloc1);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc2 {
+      @include abstracts.area(60vh, bloc2);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc3 {
+      @include abstracts.area(calc(90vh + 40px), bloc3);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc4 {
+      @include abstracts.area(30vh, bloc4);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc5 {
+      @include abstracts.area(calc(60vh + 20px), bloc5);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc6 {
+      @include abstracts.area(30vh, bloc6);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc7 {
+      @include abstracts.area(30vh, bloc7);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc8 {
+      @include abstracts.area(30vh, bloc8);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+    .bloc9 {
+      @include abstracts.area(30vh, bloc9);
+  
+      > img {
+        @include abstracts.size(auto, 100%);
+        object-fit: cover;
+      }
+    }
+  
+}

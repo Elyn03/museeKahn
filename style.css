@@ -66,6 +66,312 @@
   backdrop-filter: blur(5px);
 }
 
+.musee {
+  padding: 50px 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "bloc1 bloc2 bloc3" "bloc1 bloc2 bloc3";
+}
+.musee div {
+  background-color: #eeccb9;
+  display: flex;
+  justify-content: center;
+}
+.musee .title {
+  height: 50px;
+  grid-area: title;
+  align-items: center;
+}
+.musee .bloc1 {
+  height: 60vh;
+  grid-area: bloc1;
+}
+.musee .bloc1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.musee .bloc2 {
+  height: 60vh;
+  grid-area: bloc2;
+}
+.musee .bloc2 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.musee .bloc3 {
+  height: 60vh;
+  grid-area: bloc3;
+}
+.musee .bloc3 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.foret1 {
+  padding: 50px 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "bloc1 bloc1 bloc3" "bloc2 bloc2 bloc3";
+}
+.foret1 div {
+  background-color: #eeccb9;
+  display: flex;
+  justify-content: center;
+}
+.foret1 .title {
+  height: 50px;
+  grid-area: title;
+  align-items: center;
+}
+.foret1 .bloc1 {
+  height: 30vh;
+  grid-area: bloc1;
+}
+.foret1 .bloc1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.foret1 .bloc2 {
+  height: 30vh;
+  grid-area: bloc2;
+}
+.foret1 .bloc2 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.foret1 .bloc3 {
+  height: calc(60vh + 20px);
+  grid-area: bloc3;
+}
+.foret1 .bloc3 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.jardinf {
+  padding: 50px 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "bloc1 bloc2 bloc3" "bloc1 bloc4 bloc4" "bloc5 bloc5 bloc5";
+}
+.jardinf div {
+  background-color: #eeccb9;
+  display: flex;
+  justify-content: center;
+}
+.jardinf .title {
+  height: 50px;
+  grid-area: title;
+  align-items: center;
+}
+.jardinf .bloc1 {
+  height: calc(60vh + 20px);
+  grid-area: bloc1;
+}
+.jardinf .bloc1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardinf .bloc2 {
+  height: 30vh;
+  grid-area: bloc2;
+}
+.jardinf .bloc2 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardinf .bloc3 {
+  height: 30vh;
+  grid-area: bloc3;
+}
+.jardinf .bloc3 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardinf .bloc4 {
+  height: 30vh;
+  grid-area: bloc4;
+}
+.jardinf .bloc4 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardinf .bloc5 {
+  height: 30vh;
+  grid-area: bloc5;
+}
+.jardinf .bloc5 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.jardina {
+  padding: 50px 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "bloc1 bloc1 bloc2" "bloc3 bloc4 bloc4";
+}
+.jardina div {
+  background-color: #eeccb9;
+  display: flex;
+  justify-content: center;
+}
+.jardina .title {
+  height: 50px;
+  grid-area: title;
+  align-items: center;
+}
+.jardina .bloc1 {
+  height: 30vh;
+  grid-area: bloc1;
+}
+.jardina .bloc1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardina .bloc2 {
+  height: 30vh;
+  grid-area: bloc2;
+}
+.jardina .bloc2 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardina .bloc3 {
+  height: 30vh;
+  grid-area: bloc3;
+}
+.jardina .bloc3 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.jardina .bloc4 {
+  height: 30vh;
+  grid-area: bloc4;
+}
+.jardina .bloc4 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.village {
+  padding: 50px 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "bloc1 bloc3 bloc2" "bloc1 bloc3 bloc2" "bloc4 bloc3 bloc5" "bloc6 bloc6 bloc5" "bloc7 bloc8 bloc9";
+}
+.village div {
+  background-color: #eeccb9;
+  display: flex;
+  justify-content: center;
+}
+.village .title {
+  height: 50px;
+  grid-area: title;
+  align-items: center;
+}
+.village .bloc1 {
+  height: 60vh;
+  grid-area: bloc1;
+}
+.village .bloc1 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc2 {
+  height: 60vh;
+  grid-area: bloc2;
+}
+.village .bloc2 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc3 {
+  height: calc(90vh + 40px);
+  grid-area: bloc3;
+}
+.village .bloc3 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc4 {
+  height: 30vh;
+  grid-area: bloc4;
+}
+.village .bloc4 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc5 {
+  height: calc(60vh + 20px);
+  grid-area: bloc5;
+}
+.village .bloc5 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc6 {
+  height: 30vh;
+  grid-area: bloc6;
+}
+.village .bloc6 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc7 {
+  height: 30vh;
+  grid-area: bloc7;
+}
+.village .bloc7 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc8 {
+  height: 30vh;
+  grid-area: bloc8;
+}
+.village .bloc8 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.village .bloc9 {
+  height: 30vh;
+  grid-area: bloc9;
+}
+.village .bloc9 > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
 .cover {
   height: 100vh;
   width: 100%;
@@ -152,6 +458,7 @@
   grid-column: 1/5;
   grid-row: 1/2;
   font-size: 30px;
+  align-items: center;
 }
 .museum .text, .garden .text {
   grid-column: 1/4;
